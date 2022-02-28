@@ -166,6 +166,12 @@ input::placeholder{
   margin-top: 25px;
   cursor: pointer;
 }
+.input_btn:hover{
+  opacity: .8;
+}
+.input_btn:active{
+  opacity: .6;
+}
 
 .intro_bg_2{
   position: absolute;
