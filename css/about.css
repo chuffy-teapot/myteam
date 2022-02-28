@@ -253,10 +253,7 @@ header {
 }
 .add:hover{
   transform: rotate(315deg);
-}
-.add:active{
   background-color: #79C8C7;
-  transition: 0s;
 }
 
 .direct_background_2{
