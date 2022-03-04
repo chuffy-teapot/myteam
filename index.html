@@ -16,18 +16,28 @@
 
 <body>
   <header>
-    <div class=container>
+    <div class="container">
       <div class="nav_bar">
-        <div class="nav_wrap">
-          <a class="logo" href="index.html"><img class="logo_img" src="img/logo.svg" width="160" height="40"
-              alt="logo"></a>
-          <ul class="nav_bar_list">
-            <li><a class="nav_bar_link link_home" href="index.html">home</a></li>
-            <li><a class="nav_bar_link link_about" href="about.html">about</a></li>
-          </ul>
-        </div>
+        <input class="hamburger_btn" type="checkbox" id="toggle">
 
-        <a href="contact.html" class="nav_bar_btn" type="button">contact us</a>
+        <a class=" logo" href="index.html">
+          <img class=" logo_img" src="img/logo.svg" width="160" height="40" alt="logo">
+        </a>
+
+        <ul class="nav_bar_list">
+          <li class="nav_bar_item"><a class="nav_bar_link link_home" href="index.html">home</a></li>
+          <li class="nav_bar_item"><a class="nav_bar_link link_about" href="about.html">about</a></li>
+          <li><a href="contact.html" class="nav_bar_btn">contact us</a></li>
+        </ul>
+
+
+        <label class="hamburger_label" for="toggle">
+          <div class="hamburger_outer">
+            <div class="hamburger"></div>
+            <div class="hamburger_1"></div>
+            <div class="hamburger_2"></div>
+          </div>
+        </label>
       </div><!-- nav_bar -->
     </div><!-- container -->
   </header>
@@ -139,7 +149,6 @@
           <a class="contact_btn" href="contact.html">contact us</a>
         </div>
       </div><!-- container -->
-      <img class="contact_background" width="200" height="144" src="img/contacts.svg" alt="">
     </section><!-- contact_section -->
 
   </main>
@@ -177,32 +186,31 @@
           </li>
         </ul><!-- footer_list -->
 
-        <div class="footer_web">
-          <ul class="web_list">
-            <li class="web_item">
-              <a href="https://www.facebook.com/" class="web_link">
-                <img src="img/facebook.svg" width="24" height="24" alt="facebook icon" class="web_img">
-                <img src="img/facebook-hover.svg" width="24" height="24" alt="facebook icon" class="web_img_rep">
-              </a>
-            </li>
 
-            <li class="web_item">
-              <a href="https://www.pinterest.ru/" class="web_link">
-                <img src="img/pinterest.svg" width="24" height="24" alt="pinterest icon" class="web_img">
-                <img src="img/pinterest-hover.svg" width="24" height="24" alt="pinterest icon" class="web_img_rep">
-              </a>
-            </li>
+        <ul class="web_list">
+          <li class="web_item">
+            <a href="https://www.facebook.com/" class="web_facebook web_link">
+              <img src="img/facebook.svg" width="24" height="24" alt="facebook icon" class="web_img">
+              <img src="img/facebook-hover.svg" width="24" height="24" alt="facebook icon" class="web_img_rep">
+            </a>
+          </li>
 
-            <li class="web_item">
-              <a href="https://twitter.com/" class="web_link">
-                <img src="img/twitter.svg" width="24" height="20" alt="twitter icon" class="web_img">
-                <img src="img/twitter-hover.svg" width="24" height="20" alt="twitter icon" class="web_img_rep">
-              </a>
-            </li>
-          </ul>
+          <li class="web_item">
+            <a href="https://www.pinterest.ru/" class="web_link">
+              <img src="img/pinterest.svg" width="24" height="24" alt="pinterest icon" class="web_img">
+              <img src="img/pinterest-hover.svg" width="24" height="24" alt="pinterest icon" class="web_img_rep">
+            </a>
+          </li>
 
-          <p class="web_text">Copyright 2020. All Rights Reserved</p>
-        </div><!-- footer_web -->
+          <li class="web_item">
+            <a href="https://twitter.com/" class="web_link">
+              <img src="img/twitter.svg" width="24" height="20" alt="twitter icon" class="web_img">
+              <img src="img/twitter-hover.svg" width="24" height="20" alt="twitter icon" class="web_img_rep">
+            </a>
+          </li>
+        </ul>
+
+        <p class="web_text">Copyright 2020. All Rights Reserved</p>
 
       </div><!-- footer -->
     </div><!-- container -->

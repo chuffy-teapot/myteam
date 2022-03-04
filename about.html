@@ -16,18 +16,28 @@
 
 <body>
   <header>
-    <div class=container>
+    <div class="container">
       <div class="nav_bar">
-        <div class="nav_wrap">
-          <a class="logo" href="index.html"><img class="logo_img" src="img/logo.svg" width="160" height="40"
-              alt="logo"></a>
-          <ul class="nav_bar_list">
-            <li><a class="nav_bar_link link_home" href="index.html">home</a></li>
-            <li><a class="nav_bar_link link_about" href="about.html">about</a></li>
-          </ul>
-        </div>
+        <input class="hamburger_btn" type="checkbox" id="toggle">
 
-        <a href="contact.html" class="nav_bar_btn" type="button">contact us</a>
+        <a class=" logo" href="index.html">
+          <img class=" logo_img" src="img/logo.svg" width="160" height="40" alt="logo">
+        </a>
+
+        <ul class="nav_bar_list">
+          <li class="nav_bar_item"><a class="nav_bar_link link_home" href="index.html">home</a></li>
+          <li class="nav_bar_item"><a class="nav_bar_link link_about" href="about.html">about</a></li>
+          <li><a href="contact.html" class="nav_bar_btn">contact us</a></li>
+        </ul>
+
+
+        <label class="hamburger_label" for="toggle">
+          <div class="hamburger_outer">
+            <div class="hamburger"></div>
+            <div class="hamburger_1"></div>
+            <div class="hamburger_2"></div>
+          </div>
+        </label>
       </div><!-- nav_bar -->
     </div><!-- container -->
   </header>
@@ -45,12 +55,12 @@
           </p>
         </div>
       </div><!-- container -->
-      <img class="about_background" src="img/about.png" width="100" height="200" alt="">
+      <img class="about_background" src="img/about.png" width="100" height="100" alt="">
     </section><!-- about_section -->
 
 
     <section id="directors_section">
-      <img class="direct_background" src="img/direct-background.png" width="100" height="200" alt="">
+      <img class="direct_background" src="img/direct-background.png" width="100" height="100" alt="">
       <div class=container>
         <div class="directors">
           <h2 class="directors_title">meet the directors</h2>
@@ -64,7 +74,8 @@
                   <p class="direct_name">Nikita Marks</p>
                   <p class="direct_name_info">Founder & CEO</p>
                   <p class="direct_name">Nikita Marks</p>
-                  <blockquote class="direct_quote">“Empowered teams create truly amazing products. Set the north star and
+                  <blockquote class="direct_quote">“Empowered teams create truly amazing products. Set the north star
+                    and
                     let them follow it.”
                   </blockquote>
                   <ul class="direct_list_inner">
@@ -95,7 +106,8 @@
                   <p class="direct_name">Cristian Duncan</p>
                   <p class="direct_name_info">Co-founder & COO</p>
                   <p class="direct_name">Cristian Duncan</p>
-                  <blockquote class="direct_quote">“Empowered teams create truly amazing products. Set the north star and
+                  <blockquote class="direct_quote">“Empowered teams create truly amazing products. Set the north star
+                    and
                     let them follow it.”
                   </blockquote>
                   <ul class="direct_list_inner">
@@ -126,7 +138,8 @@
                   <p class="direct_name">Cruz Hamer</p>
                   <p class="direct_name_info">Co-founder & CTO</p>
                   <p class="direct_name">Cruz Hamer</p>
-                  <blockquote class="direct_quote">“Empowered teams create truly amazing products. Set the north star and
+                  <blockquote class="direct_quote">“Empowered teams create truly amazing products. Set the north star
+                    and
                     let them follow it.”
                   </blockquote>
                   <ul class="direct_list_inner">
@@ -157,7 +170,8 @@
                   <p class="direct_name">Drake Heaton</p>
                   <p class="direct_name_info">Business Development Lead</p>
                   <p class="direct_name">Drake Heaton</p>
-                  <blockquote class="direct_quote">“Empowered teams create truly amazing products. Set the north star and
+                  <blockquote class="direct_quote">“Empowered teams create truly amazing products. Set the north star
+                    and
                     let them follow it.”
                   </blockquote>
                   <ul class="direct_list_inner">
@@ -188,7 +202,8 @@
                   <p class="direct_name">Griffin Wise</p>
                   <p class="direct_name_info">Lead Marketing</p>
                   <p class="direct_name">Griffin Wise</p>
-                  <blockquote class="direct_quote">“Empowered teams create truly amazing products. Set the north star and
+                  <blockquote class="direct_quote">“Empowered teams create truly amazing products. Set the north star
+                    and
                     let them follow it.”
                   </blockquote>
                   <ul class="direct_list_inner">
@@ -219,7 +234,8 @@
                   <p class="direct_name">Aden Allan</p>
                   <p class="direct_name_info">Product Manager</p>
                   <p class="direct_name">Aden Allan</p>
-                  <blockquote class="direct_quote">“Empowered teams create truly amazing products. Set the north star and
+                  <blockquote class="direct_quote">“Empowered teams create truly amazing products. Set the north star
+                    and
                     let them follow it.”
                   </blockquote>
                   <ul class="direct_list_inner">
@@ -291,7 +307,6 @@
           <a class="contact_btn" href="contact.html">contact us</a>
         </div>
       </div><!-- container -->
-      <img class="contact_background" width="200" height="144" src="img/contacts.svg" alt="">
     </section><!-- contact_section -->
 
   </main>
@@ -331,32 +346,31 @@
           </li>
         </ul><!-- footer_list -->
 
-        <div class="footer_web">
-          <ul class="web_list">
-            <li class="web_item">
-              <a href="https://www.facebook.com/" class="web_link">
-                <img src="img/facebook.svg" width="24" height="24" alt="facebook icon" class="web_img">
-                <img src="img/facebook-hover.svg" width="24" height="24" alt="facebook icon" class="web_img_rep">
-              </a>
-            </li>
 
-            <li class="web_item">
-              <a href="https://www.pinterest.ru/" class="web_link">
-                <img src="img/pinterest.svg" width="24" height="24" alt="pinterest icon" class="web_img">
-                <img src="img/pinterest-hover.svg" width="24" height="24" alt="pinterest icon" class="web_img_rep">
-              </a>
-            </li>
+        <ul class="web_list">
+          <li class="web_item">
+            <a href="https://www.facebook.com/" class="web_facebook web_link">
+              <img src="img/facebook.svg" width="24" height="24" alt="facebook icon" class="web_img">
+              <img src="img/facebook-hover.svg" width="24" height="24" alt="facebook icon" class="web_img_rep">
+            </a>
+          </li>
 
-            <li class="web_item">
-              <a href="https://twitter.com/" class="web_link">
-                <img src="img/twitter.svg" width="24" height="20" alt="twitter icon" class="web_img">
-                <img src="img/twitter-hover.svg" width="24" height="20" alt="twitter icon" class="web_img_rep">
-              </a>
-            </li>
-          </ul>
+          <li class="web_item">
+            <a href="https://www.pinterest.ru/" class="web_link">
+              <img src="img/pinterest.svg" width="24" height="24" alt="pinterest icon" class="web_img">
+              <img src="img/pinterest-hover.svg" width="24" height="24" alt="pinterest icon" class="web_img_rep">
+            </a>
+          </li>
 
-          <p class="web_text">Copyright 2020. All Rights Reserved</p>
-        </div><!-- footer_web -->
+          <li class="web_item">
+            <a href="https://twitter.com/" class="web_link">
+              <img src="img/twitter.svg" width="24" height="20" alt="twitter icon" class="web_img">
+              <img src="img/twitter-hover.svg" width="24" height="20" alt="twitter icon" class="web_img_rep">
+            </a>
+          </li>
+        </ul>
+
+        <p class="web_text">Copyright 2020. All Rights Reserved</p>
 
       </div><!-- footer -->
     </div><!-- container -->
